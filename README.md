@@ -1,6 +1,6 @@
 # 📦 Streamlit App Starter Kit 
 ```
-⬆️ (Replace above with your app's name)
+steel-plate-fault prediction
 ```
 
 Description of the app ...
