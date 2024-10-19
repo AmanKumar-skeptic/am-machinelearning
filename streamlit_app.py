@@ -12,4 +12,4 @@ upload_file = st.file_uploader("Upload a text file", type="pdf")
 model_choice = st.selectbox("Select a Language model", ["GPT-J", "GPT-NeoX", "LLaMA", "BLOOM"])
 
 if upload_file is not None:
-  st.write(f"Uploaded file: {uploaded_file.name}")
+  st.write(f"Uploaded file: {upload_file.name}")
