@@ -6,4 +6,4 @@ st.title('🤖Machine Learning App🤖')
 st.info('This is steel-plate-fault-prediction app')
 
 with st.expander('Data'):
-  st.write(**Raw data**)
+  st.write('**Raw data**')
