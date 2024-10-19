@@ -1,5 +1,5 @@
 import streamlit as st
-!pip install faiss-cpu
+# !pip install faiss-cpu
 import faiss
 import numpy as np
 
