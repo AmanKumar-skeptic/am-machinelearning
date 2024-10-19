@@ -5,3 +5,4 @@ scikit-learn
 faiss-cpu
 PyPDF2
 transformers
+torch
