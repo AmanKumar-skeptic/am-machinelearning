@@ -153,10 +153,13 @@ from transformers import pipeline
 # Question generation pipeline (can be replaced by RAG)
 generator = pipeline('text2text-generation', model="t5-base")
 
+
 # Function to generate MCQs
 def generate_mcqs(text):
     prompt = f"Generate 5 MCQs from the following text:\n{text}"
-    response = generator(prompt, max_length=200, num_return_sequences=5)
+    # response = generator(prompt, max_length=200, num_return_sequences=5)
+    prompt = prompt[:512]
+    response = generator(prompt)
     return response
 
 # Function to parse MCQs
