@@ -6,3 +6,5 @@ faiss-cpu
 PyPDF2
 transformers
 torch
+python-docx==0.8.11  # For DOCX file processing
+
